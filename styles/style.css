@@ -894,6 +894,10 @@ footer img {
     text-align: center;
   }
 
+  nav {
+    padding: 1em 1.5em;
+  }
+
   nav div a {
     margin: 0 0.5em;
     font-size: 16px;
