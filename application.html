@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script src="https://kit.fontawesome.com/16f9e4dc96.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>High Risk - Contact</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="index.html"><img src="/assets/logo.png" alt="logo"/></a>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a class="btn" href="application.html">SIGN UP</a>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <a class="logo" href="index.html"
+          ><img src="/assets/logo.png" alt="logo"
+        /></a>
+        <a class="btn" href="application.html">SIGN UP</a>
+        <i class="fas fa-bars open-menu"></i>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <section id="application">
+      <div class="headline">
+        <header>
+          <h1>Online Merchant Account Application</h1>
+          <h4>
+            Please complete the form below for your merchant account application
+            and a MIDsource Representative will contact you within 24 hours.
+          </h4>
+        </header>
+        <aside>
+          <h3>WE ACCEPT MERCHANTS:</h3>
+          <ul>
+            <li>Terminated by Stripe</li>
+            <li>Terminated by PayPal</li>
+            <li>On the TMF/Match List</li>
+          </ul>
+        </aside>
+      </div>
+      <form action="#">
+        <div class="row">
+          <header>
+            <h3>Personal Information</h3>
+            <span>(required)</span>
+          </header>
+          <div class="fields">
+            <input class="half-field" type="text" placeholder="First Name" />
+            <input class="half-field" type="text" placeholder="Last Name" />
+            <input class="half-field" type="text" placeholder="Email" />
+            <input class="half-field" type="text" placeholder="Phone Number" />
+          </div>
+        </div>
+        <div class="row">
+          <header>
+            <h3>Business Information</h3>
+          </header>
+          <div class="fields">
+            <input class="half-field" type="text" placeholder="Business Name" />
+            <input class="half-field" type="text" placeholder="Industry" />
+            <input class="half-field" type="text" placeholder="Address" />
+            <input class="half-field" type="text" placeholder="Country" />
+            <input class="half-field" type="text" placeholder="Business URL" />
+          </div>
+        </div>
+        <div class="row">
+          <header>
+            <h3>Additional Information</h3>
+          </header>
+          <div class="fields">
+            <div class="half-field">
+              <span>Are you currently processing?</span>
+              <div>
+                <label style="font-weight: bold"
+                  >YES <input name="radio" type="radio" />
+                  <span class="radio"></span>
+                </label>
+                <label style="font-weight: bold"
+                  >NO <input name="radio" type="radio" />
+                  <span class="radio"></span>
+                </label>
+              </div>
+            </div>
+            <input
+              class="half-field"
+              type="text"
+              placeholder="Monthly Capacity"
+            />
+            <input
+              class="half-field"
+              type="text"
+              placeholder="Previous Processer"
+            />
+
+            <input
+              class="half-field"
+              type="text"
+              placeholder="Desired Currency"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <header>
+            <h3>How Can We Help You?</h3>
+          </header>
+          <div class="fields">
+            <div class="check-wrapper">
+              <label
+                ><input type="checkbox" />
+                <span class="checkbox"></span> International High Risk Merchant
+                Account</label
+              >
+              <label
+                ><input type="checkbox" /> <span class="checkbox"></span> High
+                Risk ACH</label
+              >
+              <label
+                ><input type="checkbox" />
+                <span class="checkbox"></span> Chargeback Management</label
+              >
+              <label
+                ><input type="checkbox" />
+                <span class="checkbox"></span> Domestic High Risk Merchant
+                Account</label
+              >
+              <label
+                ><input type="checkbox" /> <span class="checkbox"></span> High
+                Risk Check Draft</label
+              >
+              <label
+                ><input type="checkbox" />
+                <span class="checkbox"></span> Gateway Services</label
+              >
+              <label
+                ><input type="checkbox" />
+                <span class="checkbox"></span> International High Risk
+                Aggregation Account</label
+              >
+              <label
+                ><input type="checkbox" /> <span class="checkbox"></span> Cash
+                Advance</label
+              >
+              <label
+                ><input type="checkbox" /> <span class="checkbox"></span> Cyber
+                Security</label
+              >
+            </div>
+          </div>
+        </div>
+        <textarea placeholder="Messages/Notes"></textarea>
+        <button>SUBMIT</button>
+      </form>
+    </section>
+    <script src="/scripts/scripts.js"></script>
+  </body>
+</html>
