@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $('.open-menu').click(function() {
+    $('.nav-links').toggleClass('show');
+  });
+
   $('.slider').slick({
     prevArrow:
       '<button class="previous"><i class="fas fa-angle-left"></i></button>',
@@ -14,9 +18,5 @@ $(document).ready(function() {
       '<button class="previous"><i class="fas fa-angle-left"></i></button>',
     nextArrow:
       '<button class="next"><i class="fas fa-angle-right"></i></button>'
-  });
-
-  $('.open-menu').click(function() {
-    $('.nav-links').toggleClass('show');
   });
 });

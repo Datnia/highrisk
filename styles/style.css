@@ -944,7 +944,7 @@ footer img {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1em 2em;
-    margin: 2em auto;
+    margin: 3em auto;
   }
 
   #solution .major .row .row-content {
@@ -1013,10 +1013,14 @@ footer img {
     padding: 2em 20px;
   }
 
+  #application .headline header {
+    text-align: center;
+  }
+
   #application .headline aside {
     min-width: initial;
     padding: 0 1em 1em 1em;
-    margin: 1em auto 0;
+    margin: 1.5em auto 0;
   }
 
   #application form .row .fields {
@@ -1039,7 +1043,7 @@ footer img {
   }
 
   #application form .row {
-    margin: 1em 0;
+    margin: 1.5em 0;
   }
 
   #application form .row .fields .check-wrapper {
