@@ -100,7 +100,7 @@ form div {
 }
 
 form header {
-  background: rgb(227, 227, 227, 0.31);
+  background: rgba(227, 227, 227, 0.31);
   text-align: center;
   padding: 25px 90px;
   border-radius: 10px 10px 0 0;
@@ -211,8 +211,9 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #1f88cbb3;
+  background: rgba(31, 136, 203, 0.702);
   top: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -237,7 +238,7 @@ section {
   max-width: 280px;
   width: 100%;
   padding: 2em;
-  background: rgb(143, 207, 237, 0.37);
+  background: rgba(143, 207, 237, 0.37);
   border-radius: 10px 10px 0 0;
   display: flex;
   flex-direction: column;
@@ -265,7 +266,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
 }
 
 #banner .minor form button {
@@ -279,7 +280,7 @@ section {
 
 .slider {
   max-width: 870px;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
   margin-left: -10px;
 }
@@ -301,9 +302,9 @@ section {
   border: none;
   color: #0a5e91;
   left: -50px;
-  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
   z-index: 1;
-  width: max-content;
+  width: 31px;
   margin: auto;
 }
 
@@ -334,7 +335,7 @@ section {
 }
 
 #solution {
-  background: rgb(219, 219, 219, 0.2);
+  background: rgba(219, 219, 219, 0.2);
   align-items: center;
 }
 
@@ -365,7 +366,7 @@ section {
   border-radius: 10px;
   align-items: center;
   position: relative;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
 }
 
 #solution .major .row .check-wrapper {
@@ -459,7 +460,7 @@ section {
   background: #fff;
   border-radius: 10px;
   padding: 2.8em;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
   transform: translateY(-20%);
   text-align: center;
 }
@@ -511,7 +512,7 @@ footer img {
   height: 100%;
   z-index: -1;
   top: 0;
-  background: rgb(10, 94, 145, 0.85);
+  background: rgba(10, 94, 145, 0.85);
 }
 
 #contact .minor div {
@@ -573,7 +574,7 @@ footer img {
   border-radius: 10px;
   min-width: 585px;
   margin-left: 2em;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
 }
 
 #application form {
@@ -586,7 +587,7 @@ footer img {
 }
 
 #application form .row {
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -645,7 +646,7 @@ footer img {
   margin: 60px 0;
   border: none;
   padding: 6em 0 5em;
-  box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
 }
 
 #application form .row .fields label input {
@@ -1130,5 +1131,24 @@ footer img {
 
   #application .headline aside {
     width: 100%;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  #banner .major,
+  #banner .minor {
+    margin: 0 auto;
+  }
+
+  .slider,
+  .ghost-container {
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #banner .minor {
+      padding: 0;
+      margin: 2em 0 3em;
+    }
   }
 }
