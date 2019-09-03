@@ -14,6 +14,7 @@ $(document).ready(function() {
     centerMode: true,
     slidesToShow: 3,
     variableWidth: true,
+    focusOnSelect: true,
     prevArrow:
       '<button class="previous"><i class="fas fa-angle-left"></i></button>',
     nextArrow:

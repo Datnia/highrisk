@@ -407,11 +407,17 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 3em 0;
   margin: 3em;
   position: relative;
   max-width: 440px;
   width: 100%;
+  height: 300px;
+}
+
+#affiliates .slide.slick-current {
+  height: 350px;
 }
 
 #affiliates .previous {
@@ -439,10 +445,22 @@ section {
   height: 140px;
   width: 140px;
   background: #fff;
-  display: flex;
-  align-items: center;
+  display: none;
   justify-content: center;
+  align-items: center;
   border-radius: 100%;
+}
+
+#affiliates .slide.slide.slick-current .img-wrapper {
+  display: flex;
+}
+
+#affiliates .slide h3 {
+  margin: 0;
+}
+
+#affiliates .slide.slick-current h3 {
+  margin: 1em 0 5px;
 }
 
 #cta {
