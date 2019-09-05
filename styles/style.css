@@ -457,6 +457,7 @@ section {
 
 #affiliates .slide h3 {
   margin: 0;
+  text-align: center;
 }
 
 #affiliates .slide.slick-current h3 {
